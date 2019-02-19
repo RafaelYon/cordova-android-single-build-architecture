@@ -2,13 +2,13 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-build-architecture"
-        version="1.0.4">
+        id="cordova-android-single-build-architecture"
+        version="1.0.0">
 
-    <name>Build Architecture</name>
-    <description>Experimental plugin to force one single arm or x86 build</description>
+    <name>Android Single Build Architecture</name>
+    <description>Experimental plugin to force compile for Android from Corvada generate a single apk</description>
     <license>MIT</license>
-    <repo>https://github.com/MBuchalik/cordova-build-architecture</repo>
+    <repo>https://github.com/RafaelYon/cordova-android-single-build-architecture</repo>
 
     <engines>
         <engine name="cordova-android" version=">=4"/>
@@ -18,7 +18,6 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-        	<preference name="buildArchitecture" default="arm" />
         </config-file>
 
         <framework src="platforms/android/architecture.gradle" custom="true" type="gradleReference"/>
