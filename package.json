@@ -1,18 +1,20 @@
 {
-  "name": "cordova-build-architecture",
-  "version": "1.0.4",
-  "description": "Experimental plugin to force one single arm or x86 build",
+  "name": "cordova-android-single-build-architecture",
+  "version": "1.0.0",
+  "description": "Experimental plugin to force compile for Android from Corvada generate a single apk",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MBuchalik/cordova-build-architecture.git"
+    "url": "git+https://github.com/RafaelYon/cordova-android-single-build-architecture.git"
   },
   "keywords": [
-    "cordova"
+    "cordova",
+    "build",
+    "single"
   ],
-  "author": "Martin Buchalik",
+  "author": "Rafael Antonio Yon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MBuchalik/cordova-build-architecture/issues"
+    "url": "https://github.com/RafaelYon/cordova-android-single-build-architecture/issues"
   },
-  "homepage": "https://github.com/MBuchalik/cordova-build-architecture#readme"
+  "homepage": "https://github.com/RafaelYon/cordova-android-single-build-architecture"
 }
